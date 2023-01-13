@@ -10,6 +10,7 @@ public class WebAppController {
     @GetMapping("/")
     String index(Model model) {
         model.addAttribute("welcomeMessage", "Service Works");
+
         return "index";
     }
 }
