@@ -1,0 +1,16 @@
+_extends: .github
+
+repository:
+  name: WebApp
+
+  description: Web Application for D&D Group
+
+teams:
+  - name: ddgroup
+    permission: admin
+
+branches:
+  - name: master
+    protection:
+      required_pull_request_reviews:
+        required_approving_review_count: 2
